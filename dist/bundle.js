@@ -16,7 +16,7 @@
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _js_script_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./js/script.js */ \"./src/js/script.js\");\n\n(0,_js_script_js__WEBPACK_IMPORTED_MODULE_0__.showName)(\"Alex\");\nconsole.log(\"325687\");\nconsole.log(\"325687\");\n\n//# sourceURL=webpack://proba-nomer-4/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _js_script_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./js/script.js */ \"./src/js/script.js\");\n/* harmony import */ var _sass_main_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./sass/main.scss */ \"./src/sass/main.scss\");\n\n\n(0,_js_script_js__WEBPACK_IMPORTED_MODULE_0__.showName)(\"Alex\");\nconsole.log(\"325687\");\nconsole.log(\"325687\");\n\n//# sourceURL=webpack://proba-nomer-4/./src/index.js?");
 
 /***/ }),
 

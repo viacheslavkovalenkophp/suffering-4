@@ -4,7 +4,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
     entry: {
-      main: [path.join(__dirname, './src/index.js'), path.join(__dirname, 'src/sass/main.scss'),]
+        main: [path.join(__dirname, './src/index.js'), path.join(__dirname, 'src/sass/main.scss'),]
     },
     watch: true,
     output: {
@@ -28,12 +28,12 @@ module.exports = {
                     loader: "babel-loader",
                     options: {
                         presets: [
-                              [
-                                  "@babel/preset-env",
-                                  {
-                                      targets: "> 0.25%"
-                                  }
-                              ]
+                            [
+                                "@babel/preset-env",
+                                {
+                                    targets: "> 0.25%"
+                                }
+                            ]
                         ]
                     }
                 }
@@ -44,5 +44,8 @@ module.exports = {
         new MiniCssExtractPlugin({
             filename: "style.css"
         })
-    ]
+    ],
+    devServer: {
+        liveReload: false,
+    },
 };

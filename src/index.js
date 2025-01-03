@@ -1,4 +1,5 @@
 import { showName} from "./js/script.js";
+import './sass/main.scss';
 
 showName("Alex");
 
